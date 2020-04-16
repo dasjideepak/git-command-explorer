@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="img/logo.png">
+    <title>New Tab</title>
+    <script defer src="./js/data.js"></script>
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class= "container">
+        <div class="gSearch">
+          <img class="google-img" src="./img/google.png" alt="">
+          <input class="google-search" type="text" placeholder="Type Anything and Press Enter">
+        </div>        
+        <div class = "grid">
+          <section class = "search-sec">
+            <h2 class="heading">Git <span>Command</span> Explorer</h2>
+            <h6 class="heading-des">
+              Find the right commands you need without drigging through the web.
+            </h6>
+              <label>Search Command</label>
+              <input class = "search-box" type="text" placeholder="Type Any Command And Press Enter">
+              <div class="warning"></div>
+              <div id="log"></div>
+            </section>
+          <section class= "command-sec">
+            <ul>
+            </ul>
+          </section>    
+        </div>
+      </div>  
+    </main>
+    <footer>
+      <button id = "myBtn">
+        <img src="./img/s2.png" alt="">  Customize
+      </button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Customize Your Dashboard</h2>
+          </div>
+          <div class="modal-body">
+            <li>
+              <h5>Dark Mode</h5>
+              <label class="switch">
+                <input class="checkbox darkLight" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </li>
+            <li>
+              <h5>Time</h5>
+              <label class="switch">
+                <input class="checkbox showTime" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </li>
+            <li>
+              <h5>Google Search</h5>
+              <label class="switch">
+                <input class="checkbox google" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </li>
+          </div>
+        </div>
+      </div>
+      <p class ="footer-txt">Made in <a href="https://altcampus.io/" target="_blank">⛰</a> by <a href="https://twitter.com/dasjideepak" target="_blank">Deepak</a></p>
+        <div class="clock">
+          <div class="hour">
+              <div class="hr" id="hr"></div>
+          </div>
+          <div class="min">
+              <div class="mn" id="mn"></div>
+          </div>
+          <div class="sec">
+              <div class="sc" id="sc"></div>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
+
