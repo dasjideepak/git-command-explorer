@@ -11,7 +11,7 @@ let cmdData = [
     },
     {
         command: "git clone",
-        utility: "Creates a GIT repository copy from a remote source. Also adds the original location as a remote so you can fetch from it again and push to it if you have permissions",
+        utility: "Creates a GIT repository copy from a remote source. Also adds the original location as a remote",
         howto: "git clone git@github.com:user/test.git"
     },
     {
@@ -31,8 +31,8 @@ let cmdData = [
     },
     {
         command: "git status",
-        utility: "Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing).",
-        howto: "git status <br> # On branch master # <br> # Initial commit # <br> # Untracked files: # <br> # (use 'git add <file>...' to include in what will be committed) #"
+        utility: "Shows you the status of files in the index versus the working directory.",
+        howto: "git status"
     },
     {
         command: "git branch",
@@ -100,7 +100,7 @@ let cmdData = [
     },    
     {
         command: "git checkout",
-        utility: " git checkout is used to switch from one branch to another.",
-        howto: "git checkout [branch name] : This command is used to switch from one branch to another.<br>git checkout -b [branch name] :  This command creates a new branch and also switches to it."
+        utility: "git checkout is used to switch from one branch to another.",
+        howto: "git checkout [branch name] - switch from one branch to another. git checkout -b [branch name] - creates a new branch and also switches to it."
     }
 ];

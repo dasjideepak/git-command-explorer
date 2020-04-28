@@ -1,7 +1,7 @@
 {
   "name": "Command Explorer",
   "description" : "Using this extension, you can learn or revised git commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "chrome_url_overrides":{
     "newtab" : "index.html"
